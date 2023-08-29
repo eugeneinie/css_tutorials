@@ -13,7 +13,7 @@ body {
 }
 
 /* element selector */
-h1, h2 { 
+/* h1, h2 {  */
     /* font-size: 64px; */
     color: red;
 }
@@ -48,4 +48,12 @@ h1 {
 
 h1.orange {
     color: blue;
+}
+
+p.three + .one > a {
+    color: blue;
+}
+
+h2.title {
+    color: yellow;
 }
