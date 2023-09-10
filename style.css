@@ -1,0 +1,59 @@
+/* * {
+    font-family: monospace;
+} */
+
+/* NB: The universal element actually selects all elements, they do not "inherit" */
+/* * {
+    border: 1px solid red;
+} */
+
+/* always write DRY code
+button, input, textarea, select {
+ font: inherit; } */
+
+/* html {
+    background-color: #333; 
+} */
+
+/* p {
+    font-size: 64px;
+    color: cyan;
+} */
+
+body {
+    font-size: 22px;
+    background-color: #333;
+    /* Demonstrating inheritance */
+    border: solid whitesmoke;
+}
+
+main {
+    font-family: monospace;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+     color: lime; /* !important; */
+}
+
+p {
+    color: red
+    ;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: goldenrod;
+}
+
+.cyan {
+    color: cyan;
+}
+
+#second {
+    font-style: italic;
+}
+
